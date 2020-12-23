@@ -166,6 +166,13 @@ footer{
     flex-direction: row;
     justify-content: space-between;
 }
+    footer div form{
+        display: flex;
+        flex-direction: column;
+    }
+        footer div form input, footer div form textarea{
+            margin-bottom: 1rem;
+        }
 
 /*Large Devices (LG) - tablets(landscape), desktop*/
 @media screen and (min-width: 992px){
